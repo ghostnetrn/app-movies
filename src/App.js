@@ -1,8 +1,14 @@
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Banner from './components/Banner';
+
 function App() {
   return (
     <>
-      <h1>Hello World!</h1>
-      <p>My first React app.</p>
+      <Header />
+      <Banner />
+      <p>Hello World!</p>
+      <Footer />
     </>
   );
 }
