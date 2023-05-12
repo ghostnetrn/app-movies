@@ -1,70 +1,74 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# FlupFlix - Projeto em React
 
-## Available Scripts
+FlupFlix é um projeto desenvolvido em React para fins educacionais que exibe vídeos do YouTube por categoria.
 
-In the project directory, you can run:
+Projeto desenvolvido no curso de ReactJS disponível em https://www.youtube.com/watch?v=xUNtZLRDoNU&list=PLnex8IkmReXyNgtea8ly0Pn7Kk7Kavn9v&index=20&ab_channel=ProfessorEdsonMaia 
 
-### `npm start`
+## Instalação
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para instalar o FlupFlix em sua máquina, siga os seguintes passos:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone este repositório em sua máquina usando o seguinte comando:
 
-### `npm test`
+   ```
+   git clone https://github.com/ghostnetrn/app-movies
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Entre na pasta do projeto:
 
-### `npm run build`
+   ```
+   cd flupflix
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Instale as dependências do projeto:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Uso
 
-### `npm run eject`
+Para rodar o FlupFlix em sua máquina, basta executar o seguinte comando:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Isso iniciará um servidor local na porta 3000. Você pode acessar a aplicação no seu navegador em `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contribuindo
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contribuições são sempre bem-vindas! Se você quiser contribuir com este projeto, por favor siga os seguintes passos:
 
-## Learn More
+1. Fork este repositório.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Crie um branch para sua nova feature:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```
+   git checkout -b nova-feature
+   ```
 
-### Code Splitting
+3. Faça as suas alterações e adicione os arquivos modificados:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```
+   git add .
+   ```
 
-### Analyzing the Bundle Size
+4. Faça um commit das suas alterações:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```
+   git commit -m "Descrição das suas alterações"
+   ```
 
-### Making a Progressive Web App
+5. Envie suas alterações para o seu repositório no GitHub:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   ```
+   git push origin nova-feature
+   ```
 
-### Advanced Configuration
+6. Abra um Pull Request neste repositório e aguarde a revisão.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Licença
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
