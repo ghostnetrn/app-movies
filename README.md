@@ -5,6 +5,9 @@ FlupFlix é um projeto desenvolvido em React para fins educacionais que exibe v�
 
 Projeto desenvolvido no curso de ReactJS disponível em https://www.youtube.com/watch?v=xUNtZLRDoNU&list=PLnex8IkmReXyNgtea8ly0Pn7Kk7Kavn9v&index=20&ab_channel=ProfessorEdsonMaia 
 
+## Acessar projeto
+Projeto disponível em https://flupflix.vercel.app/
+
 ## Instalação
 
 Para instalar o FlupFlix em sua máquina, siga os seguintes passos:
